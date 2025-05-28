@@ -1,0 +1,7 @@
+2022 US census county subdivisions shape files for compiling state shapes.
+
+https://www.census.gov/cgi-bin/geo/shapefiles/index.php
+
+Downloaded _2023_01_05
+
+

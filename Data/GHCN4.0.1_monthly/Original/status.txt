@@ -1,0 +1,127 @@
+GHCN-Monthly, Version 4, Status File 
+
+(users can use this file to determine overall current status, including 
+information related to previous changes and errata).
+
+DISCLAIMER: The status file does not record every possible change that may
+have occurred from one version to another.  This would be impractical for a
+variety of reasons. Therefore if a user is interested in discovering every 
+possible difference between two different file versions, they will need to 
+construct their own program to determine all possible changes between the file
+versions. 
+
+********************************************************************************
+
+10/31/2019
+
+The source known as 'mcdw-unpublished' has changed its source flag from (D) to
+(&) this is to reflect the D flag in GHCN-Daily, which uses CF6 data from the
+High Plains Regional Climate Center (HPRCC). The ghcnm-flags.txt file has been
+updated to reflect this change.
+
+********************************************************************************
+
+05/07/2019
+
+GHCN-M version has been upgraded to version 4.0.1, which includes the 
+following changes:
+    - World Record Extremes Check upgraded to incorporate record warmest
+      month occurring at Death Valley, California, USA in July 2018.
+    - Station metadata info updated, provided by the Historical Observing
+      Metadata Repository (HOMR).
+    - Check to replace erroneous data with more reliable sources, including
+      CLIMAT streams provided by the UK Met Office.
+
+For any questions, or to report an issues, please email ncdc.ghcnm@noaa.gov. 
+
+********************************************************************************
+
+10/26/2018
+
+GHCN-M version 4.0.0 is now operational. Issues may still arise during the 
+first few days of operations. For any questions, please email
+ncdc.ghcnm@noaa.gov
+
+********************************************************************************
+
+09/24/2018
+
+With the early online release of the GHCN-M v4 paper, this product is being 
+transitioned from a public beta (v4.b.2) to operations (v4.0.0). During this
+transition, issues may arise with data output. For questions, please email
+ncdc.ghcnm@noaa.gov 
+
+********************************************************************************
+
+02/16/2018
+
+Beginning with the 20180215 run, a third version of v4 beta will be produced.
+In addition to QCU and QCF, a QFE inventory and data file will be generated.
+The QFE includes estimated data for stations for the period of 1961-1990. Data
+are estimated based upon neighboring station info in the Pairwise Homogeneity
+Algorithm (PHA). Data is only provided between 1961 and 1990, and will be used
+to assess climate trends.
+
+********************************************************************************
+
+11/22/2017
+
+An update to the public BETA of GHCN-M version 4 has been made available, known
+as v4.b.2. Changes include:
+
+    - Incorporating the update from the ISTI Databank, now at version 1.1.1.
+    - Incorporating changes and updates to the quality control procedure. For
+      more information about the flags, please refer to the readme file.
+    - Other minor bug fixes, as pointed out from the user community.
+
+Please remember this is still a beta version of GHCN-M version 4, which is 
+undergoing final testing before its official release. The underlying
+data, its software and all content are provided on an 'as is' and 'as available'
+basis. We do not give any warranties, whether express or implied, as to the
+suitability or usability of the product, its software or any of its content.
+
+Feedback is welcome and should be sent via email to:
+ncdc.ghcnm@noaa.gov
+
+Should you have any questions or concerns regarding the product,
+please let us know immediately so we can rectify these accordingly.
+Your help in this regard is greatly appreciated.
+
+********************************************************************************
+
+07/20/2017
+
+Beginning this week, v4 beta will begin ingesting new data and adjusting it 
+through the Pairwise Homogeneity Algorithm. This update essentially reverts the
+change that was made on March 20th, 2017.
+
+********************************************************************************
+
+03/20/2017
+
+Starting with the 20170310 run, v4 Beta will stop adjusting new data ingested. 
+Instead, quality controlled unadjusted (QCU) data will be appended
+to both QCU and QCF files of v4 beta. During the first month of the new year,
+the Pairwise Homogenity Adjustment (PHA) will be run again to adjust the datasets
+entire period of record. 
+
+********************************************************************************
+
+10/15/2015
+
+A public BETA of GHCN-M version 4 has been made available,
+effective 10/15/2015. This is the first beta distribution, and its version
+is known as v4.b.1
+
+Please note that this is a beta version of GHCN-M version 4, which is
+still undergoing final testing before its official release. The underlying
+data, its software and all content are provided on an 'as is' and 'as available' 
+basis. We do not give any warranties, whether express or implied, as to the 
+suitability or usability of the product, its software or any of its content.
+
+Feedback is welcome and should be sent via email to:
+ncdc.ghcnm@noaa.gov
+
+Should you have any questions or concerns regarding the product,
+please let us know immediately so we can rectify these accordingly.
+Your help in this regard is greatly appreciated.

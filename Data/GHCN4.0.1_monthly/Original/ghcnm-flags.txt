@@ -1,0 +1,122 @@
+GHCN-Monthly, Version 4, Flag File 
+
+This file describes all of the data source flags used in GHCN-Monthly
+version 4. They are formatted as follows:
+
+Column1: Alpha-Numeric Flag
+Column2: Dataset Origin (Note that some sources exist in more than one dataset)
+             GHCND: Global Historical Climatology Network: Daily Dataset
+                    ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/
+             GHCNM: Global Historical Climatology Network: Monthly Dataset
+                    ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/v3/
+             ISTI:  International Surface Temperature Initiative 
+                    ftp://ftp.ncdc.noaa.gov/pub/data/globaldatabank/
+
+Column3: Description of Flag
+
+********************************************************************************
+0    GHCND       U.S. Cooperative Summary of the Day (NCDC DSI-3200)
+6    GHCND       CDMP Cooperative Summary of the Day (NCDC DSI-3206)
+7    GHCND       U.S. Cooperative Summary of the Day -- Transmitted via WxCoder3 
+                 (NCDC DSI-3207)
+A    GHCND       U.S. Automated Surface Observing System (ASOS) real-time data 
+                 (since January 1, 2006)
+a    GHCND       Australian data from the Australian Bureau of Meteorology
+B    GHCND       U.S. ASOS data for October 2000-December 2005 (NCDC DSI-3211)
+b    GHCND       Belarus update
+C    GHCND       Environment Canada
+D    GHCND       Short time delay US NWS CF6 daily summaries provided by HPRCC
+E    GHCND       European Climate Assessment and Dataset (Klein Tank et al., 2002)	   
+G    GHCND       Official Global Climate Observing System (GCOS) or other 
+                 government-supplied data
+H    GHCND       High Plains Regional Climate Center real-time data
+I    GHCND       International collection (non U.S. data received through
+                 personal contacts)
+K    GHCND       U.S. Cooperative Summary of the Day data digitized frompaper 
+                 observer forms (from 2011 to present)
+M    GHCND       Monthly METAR Extract (additional ASOS data)
+N    GHCND       Community Collaborative Rain, Hail,and Snow (CoCoRaHS)
+Q    GHCND       Data from several African countries that had been "quarantined", 
+                 that is, withheld from public releaseuntil permission was granted 
+                 from the respective meteorological services
+R    GHCND       NCDC Reference Network Database (Climate Reference Network and 
+                 Historical Climatology Network-Modernized)
+r    GHCND       All-Russian Research Institute of Hydrometeorological Information
+                 World Data Center
+S    GHCND       Global Summary of the Day (NCDC DSI-9618)
+s    GHCND       China Meteorological Administration/National Meteorological 
+                 Information Center/Climatic Data Center (http://cdc.cma.gov.cn)
+T    GHCND       SNOwpack TELemtry (SNOTEL) data obtained from the Western 
+                 Regional Climate Center
+U    GHCND       Remote Automatic Weather Station (RAWS) data obtainedfrom the 
+                 Western Regional Climate Center	   
+u    GHCND       Ukraine update	   
+W    GHCND       WBAN/ASOS Summary of the Day from NCDC's Integrated Surface 
+                 Data (ISD).  
+X    GHCND       U.S. First-Order Summary of the Day (NCDC DSI-3210)
+z    GHCND       Uzbekistan update
+Z    GHCND/GHCNM Datzilla
+m    ISTI        mexico                        
+V    ISTI        vietnam                       
+c    ISTI        channel-islands               
+e    ISTI        ecuador                       
+p    ISTI        pitcairnisland                
+j    ISTI        giessen                       
+i    ISTI        brazil-inmet                  
+1    ISTI        brazil                        
+2    ISTI        argentina                     
+4    ISTI        india                         
+5    ISTI        gsn-sweden                    
+8    ISTI        canada-raw                    
+9    ISTI        east-africa                   
+!    ISTI        uganda                        
+#    ISTI        antarctica-aws                
+$    ISTI        antarctica-palmer             
+*    ISTI        antarctica-scar-reader        
++    ISTI        spain                         
+-    ISTI        uruguay-inia                  
+.    ISTI        uruguay                       
+d    ISTI        swiss-digihom                 
+/    ISTI        ispd-tunisia-morocco          
+:    ISTI        sacad_non-blended             
+;    ISTI        japan                         
+<    ISTI        ukmet-hist                    
+=    ISTI        eklima                        
+\    ISTI        russsource-antarctica         
+f    ISTI        russsource-argentina          
+g    ISTI        russsource-brazil             
+l    ISTI        russsource-chile              
+L    ISTI        russsource-cuba               
+n    ISTI        russsource-greece             
+O    ISTI        russsource-indonesia          
+o    ISTI        russsource-iran               
+q    ISTI        russsource-new_zealand        
+t    ISTI        russsource-south_africa       
+v    ISTI        russsource-mexico             
+x    ISTI        russsource-fao                
+Y    ISTI        russsource-fwa                
+y    ISTI        russsource-australia          
+>    ISTI        russsource-australia_de       
+^    ISTI        russsource-australia_wwr      
+_    ISTI        russsource-ghcn               
+'    ISTI        russsource-climat             
+`    ISTI        russsource-conus_climat       
+~    ISTI        russsource-ak_hi_climat       
+?    ISTI        germany                       
+w    ISTI        wmssc                         
+@    ISTI        central-asia                  
+[    ISTI        arctic                        
+h    ISTI        histalp                       
+]    ISTI        hadisd 
+F    ISTI/GHCND  usforts 
+&    ISTI/GHCNM  mcdw-unpublished
+"    ISTI/GHCNM  ghcnsource
+J    ISTI/GHCNM  colonialera
+|    ISTI/GHCNM  climat-uk 
+}    ISTI/GHCNM  mcdw
+k    ISTI/GHCNM  knmi
+P    ISTI/GHCNM  climat-ncdc
+{    ISTI/GHCNM  wwr
+,    ISTI/GHCNM  climat-bufr
+3    ISTI/GHCNM  climat-prelim
+
